@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+
+	<link rel="stylesheet" href="../Source/chosen.css" />
+	</head>
+	<body>
+    <form>
+      <div id="container">
+      
+        <div class="side-by-side clearfix">
+          <div>
+            <select data-placeholder="Choose a Country..." class="chzn-select" style="width:350px;" tabindex="2">
+              <option value=""></option>
+              <option value="United States">United States</option>
+              <option value="United Kingdom">United Kingdom</option>
+              <option value="Afghanistan">Afghanistan</option>
+              <option value="Albania">Albania</option>
+              <option value="Algeria">Algeria</option>
+              <option value="American Samoa">American Samoa</option>
+              <option value="Andorra">Andorra</option>
+              <option value="Angola">Angola</option>
+              <option value="Anguilla">Anguilla</option>
+              <option value="Antarctica">Antarctica</option>
+              <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <script src="../Source/mootools-yui-compressed.js"></script> 
+      <script src="mootools-more-1.4.0.1.js"></script> 
+      <script src="../Source/chosen.min.js"></script> 
+      <script src="../Source/Locale.es-ES.Chosen.js"></script> 
+      <script> $$(".chzn-select").chosen(); $$(".chzn-select-deselect").chosen({allow_single_deselect:true}); </script>
+    </form>
+</body>

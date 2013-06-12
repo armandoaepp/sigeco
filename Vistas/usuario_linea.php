@@ -1,0 +1,1 @@
+ Usuario en Linea: <?php  echo $_SESSION["usuario"];?>  &nbsp; | &nbsp; <a href="../cerrar_sesion.php">Cerrar Sesión</a>

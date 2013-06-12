@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+.classAdd {
+	list-style-image: url(../images/add.gif);
+	width: 40px;
+	float: right;
+}
+.classEditar{
+	list-style-image:url(../images/edit.gif);
+	width: 40px;
+	float: right;
+}
+li a {
+	text-decoration: underline;
+}
+li a:link, a:visited, a:active {
+	color: #006600;
+}
+li a:hover {
+	color: #00CC33;
+}
+.MargenSeparar {
+	margin-top: 5px;
+}
+h3 {
+	text-align: center;
+}
+.border {
+	border: #999999 solid 1px;
+
+}   

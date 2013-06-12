@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contenedor {
+	margin: 0;
+}
+#superior {
+	height: 100px;
+	position: relative;
+}
+#superiorIzquierda {
+	float: left;
+}
+#superiorDerecha {
+	float: right;
+	padding:20px 50px 20px 0;
+	font-weight:bold;
+	
+}
+#cuerpo {
+	margin: 0;
+	padding: 2px;
+	background: #CCCCCC;
+	height: 100%;
+}
+#cuerpoContenedor {
+	margin: 8px;
+	background: #FFFFFF;
+	height: 100%;
+	padding:10px 0  10px 10px;
+}
+.clear{
+	clear:both;
+	}
+img{
+	border:0;
+	}

@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #CCC;
+}
+#contenedor {
+	width: 100%;
+}
+#cabecera {
+	background: #666666;  /*#666%;*/
+	height: 120px;
+}
+#cabeceraLeft {
+	float: left;
+	height: 100%;
+	width: 100px;
+	
+	
+}
+#cabeceraRight {
+	/*position: absolute;
+	left: 180px;
+	width: 900px;*/
+	height: 120px;/*z-index: 2;*/
+}
+#cabeceraUser {
+	/*position:relative;
+	top: 0;
+	right: 0;
+	width: 800px;
+	z-index: 1;*/	
+	text-align:center;
+	
+}
+#cabeceraMenu {
+	position: absolute;
+	left: 180px;
+	top: 90px;
+	width:900px;*/	
+	z-index: 2;
+	
+}
+#cuerpo {
+	background: #CCC;
+	height: auto;
+}
+#contenedorcuerpo {
+	margin: 10px;
+	background: #ffffff;
+	border: 1px solid #999;
+	height: 500px;
+}

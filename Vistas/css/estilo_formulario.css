@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+.clear {
+	clear: both;
+}
+.clsformulario {
+	width:90% ; /* 400px;*/
+}
+form {
+	width: inherit;
+	margin: 5px auto 0;
+}
+fieldset {
+	padding-left: 2px !important;
+	margin: 1px;
+	border: #009900 solid 0px;/*border: 0;*/
+}
+fieldset legend {
+	font-weight: bold;
+	font-size: 15px;
+}
+label {
+	width: 120px;
+	text-align: right;
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 1px 0 0 0;
+	font-size: 12px;
+	font-weight: bold;
+}
+input[type=text], .text {
+	width: 180px;
+	display: block;
+	padding: 1px;
+	margin: 0 0 5px 0;
+	font-size: 13px;
+	color: #3a3a3a;
+	font-family:Arial, Helvetica, sans-serif;
+}
+textarea, .textarea {
+	width: 250px;
+	display: block;
+	padding: 1px;
+	margin: 0 0 10px 0;
+	font-size: 15px;
+	color: #3a3a3a;
+	font-family:Arial, Helvetica, sans-serif;
+}
+select {
+	width: 190px;	
+	padding: 0px;
+	margin: 0 0 10px 0;
+	font-size: 13px;
+	color: #3a3a3a;
+	font-family::Arial, Helvetica, sans-serif;
+	text-align:left;
+	
+}
+input[type=checkbox],input[type=radio]   {
+	width: 15px;
+	margin: 0;
+	display: inline-block;
+}
+/*para  IE .boton */
+input[type=submit], input[type=button],input[type=reset], .boton {
+	font-weight: bold;
+	width: 100px;
+	float: right;
+	padding: 5px;
+	margin: 5px;
+	/*display: block;*/
+}
+.boton:hover {
+	color: #006600;
+}

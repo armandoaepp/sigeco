@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#cuerpoContenedor {
+	/*margin: 8px;*/
+	background: #FFFFFF;
+	height: 100%;
+	/*padding: 0px 0 10px 0;*/
+}
+#contenido {
+	padding: 5px;
+}
+#contenidoDatos {
+	padding: 5px;
+}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+.exportar {
+	float: right;
+}
+.exportar li {
+	display: block;
+	width: 25px;
+	float: left;
+	cursor: default;
+	text-align: center;
+	list-style-type: none;
+	color: #006633;
+	font-weight: bold;
+	margin: 0 1px 0 1px;
+}
+.exportar li a {
+	text-decoration: none;
+	color: #006633;
+}
+.exportar li a:hover {
+	color: #CC9900
+}
+.exportar li a img {
+	display: block;
+	width: 25px;
+	height: 25px;
+	float: left;
+	border: none;
+}
+.exportar li a:hover img, .exportar li:hover img {
+	position: relative;
+	width: 26px !important;
+	height: 26px !important;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #006600;
+}
+

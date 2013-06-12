@@ -1,0 +1,33 @@
+@charset "utf-8";
+* {
+	margin: 0;
+}
+#menu_interno {
+	background: #ebffe0; /* #009900;*/
+	height: 20px;
+}
+#menu_interno ul li {
+	display: inline;
+	padding: 0px 7px; /*Separar el texto*/
+	margin-right: 5px; /* Separar los botones */
+}
+#menu_interno ul li a {
+	color: #6ec63d; /* Color de fondo sobre el boton */
+	font-weight: bold;
+	font-size: 14px !important;
+}
+#menu_interno ul li a:hover {
+	/*color: #00CC33; */ /* Color de fondo sobre el boton */
+	cursor: pointer; /* cambiar el aspecto del puntero */
+}
+#navi li.selected {
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-bottom: 1 px solid #FFFFFF;
+	background-color: #FFFFFF;
+}
+#navi li.selected a {	
+	color: #000000;
+	height: 12px
+}

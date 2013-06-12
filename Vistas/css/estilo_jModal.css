@@ -1,0 +1,71 @@
+.ui-widget-overlay {
+	background: #aaaaaa url(images/ui-bg_highlight-hard_40_aaaaaa_1x100.png) 50% top repeat-x;
+	opacity: .90;
+	filter: Alpha(Opacity=80);
+}
+.ui-dialog {
+	display: none;
+}
+/* ----------------------------------------------------------------------------
+  * Styles for the jQuery-UI dialog widget contained form
+  *
+  * ------------------------------------------------------------------------  */
+.ui-dialog {
+	background: rgb(237,237,237);
+	font: 11px verdana, arial, sans-serif;
+}
+.ui-dialog .ui-dialog-titlebar {
+	font: small-caps bold 14px Georgia, Times, serif;
+}
+
+.ui-dialog h3,  .ui-dialog div {
+	border-top: 1px solid rgb(247,247,247);
+	border-bottom: 1px solid rgb(212,212,212);
+	padding: 2px 5px 2px 5px;
+	margin:1px;	
+}
+.ui-dialog h3 {
+	font: 18px Georgia, Times, serif;
+	margin: 0;
+}
+.ui-dialog select,  .ui-dialog textarea,  .ui-dialog input {
+	width:100%;
+	display: block;
+}
+.ui-dialog #rating input,  .ui-dialog #rating label {
+	display: inline;
+	width: auto;
+}
+.ui-dialog .puForm div:last-child {
+	border-bottom: none;
+}
+.ui-dialog .puForm h3:first-child {
+	border-top: none;
+}
+
+
+/*para elementos del Frmulario*/
+form table tr td {
+		font-size:13px;
+		font-weight:bold;
+		}
+form table tr td div{
+		font-size:14px;
+		color:#009933
+		}
+/*
+  h3,frm div{border-top:1px solid rgb(247,247,247);border-bottom:1px solid rgb(212,212,212)}
+    h3{font:18px Georgia;padding:6px 0 6px 10px}
+    h3, label{margin:0}
+    select,textarea,input{width:70%}
+    textarea{height:100px;}
+    textarea{margin-top:12px}
+    form{background:rgb(237,237,237);border:1px rgb(212,212,212) solid;margin:30px auto;width:370px}
+    form div{padding:7px}
+    #rating input{width:auto}
+    #modalform  label{display:block;position:relative}
+    form div:last-child{border-bottom:1px solid rgb(247,247,247)}
+	form table tr td {
+		
+		}
+		*/

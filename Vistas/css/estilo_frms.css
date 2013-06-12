@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+form {
+	width: 100%;
+	min-width: 300px;
+	max-width: 700px;
+}
+form fieldset {
+	margin: 0;/*border: 0;*/
+}
+form legend {
+	text-align: left;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0 5px;
+	padding: 2px 5px;
+}
+form p {
+	width: 100%;
+	margin: 2px 0 5px 0;
+}
+form p label {
+	float: left;
+	margin: 0 2px 0 0;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	width: 25%;
+}
+form p input {
+	width: 68%;
+	text-align: left;
+}
+input[readonly="readonly"] {
+	background-color: #CCCCCC;
+	color: #666666
+}
+form p select {
+	width: 72%;
+	text-align: left
+}
+form p textarea {
+	width: 72%;
+	text-align: left
+}
+form p input,  label {
+	height: 18px
+}
+form p select{
+		height:20px}
+form button {
+	font-weight: bold;
+	width: 120px;
+	padding: 5px;
+	margin: 2px;
+	text-align: center;
+	vertical-align: central;
+}
+form button img {
+	border: 0;
+	text-align: right;
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+form .botones {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.text {
+	width: 150px;
+	padding: 2px;
+	height: 25px;
+	width: 150px;
+}
+.boton {
+	height: 30px;
+}
+form p strong {
+	color: #006600;
+	
+}
+/*form p select ,form p input ,form p textarea{
+	font-size:11px
+}*/
